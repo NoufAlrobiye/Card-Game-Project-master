@@ -14,11 +14,16 @@ function shuffle(array) {
 
 // varible
 
-
 //functions
 
-
-
-
-
 // event listeners
+
+// AddEventlistener on card on container of cards (deck)
+const deck = document.querySelector(#deck)
+deck.addEventListener("click", (event) =>{
+    console.log(event.target);
+    event.target.classList.add("open")
+    console.log(event.target);
+})
+
+
