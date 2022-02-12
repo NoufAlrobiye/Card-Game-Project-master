@@ -37,6 +37,7 @@ for (let card of cards){
 //function removeStars
 function removeStars(){
 }
+
 //function checkMatch
 function checkMatch(){
     if(openCards[0].children[0].className === openCards[1].children[0].className){
@@ -92,7 +93,7 @@ const stopClock = () => {
 
 //restart the timer
 restart.addEventListener("click", function(){
-   // const shuffledCards = shuffle(cards);
+// const shuffledCards = shuffle(cards);
     stopClock();
     timerOut = true;
     time = 0;
